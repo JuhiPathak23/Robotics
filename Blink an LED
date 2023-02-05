@@ -1,0 +1,12 @@
+Connect an LED to a 7-pin microcontroller and use the following to blink the light as per the required interval of time (delay, here).
+
+
+void setup() {
+pinMode(6, OUTPUT);
+}
+void loop(){
+digitalWrite(6, HIGH);
+delay(100);
+digitalWrite(6, LOW);
+delay(100);
+}
